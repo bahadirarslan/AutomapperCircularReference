@@ -1,0 +1,11 @@
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\AutomapperCircularReference.exe.config
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\AutomapperCircularReference.exe
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\AutomapperCircularReference.pdb
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\AutoMapper.dll
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\EntityFramework.dll
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\AutoMapper.xml
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\EntityFramework.xml
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.csprojResolveAssemblyReference.cache
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.exe
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.pdb
+c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\Microsoft.Web.Infrastructure.dll
