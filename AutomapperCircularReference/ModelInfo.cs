@@ -27,7 +27,17 @@ namespace AutomapperCircularReference {
             get;
             set;
         }
-        
+
+        public int BrandID {
+            get;
+            set;
+        }
+
+        public virtual BrandInfo Brand {
+            get;
+            set;
+        }
+
         public override int GetHashCode() {
             return this.Logo.GetHashCode() ^ this.Name.GetHashCode() ^ this.ModelID.GetHashCode();
         }

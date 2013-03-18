@@ -54,6 +54,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutomapperRegistery.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="BrandInfo.cs" />
+    <Compile Include="Migrations\201303182150378_InitialCreate.cs" />
+    <Compile Include="Migrations\201303182150378_InitialCreate.Designer.cs">
+      <DependentUpon>201303182150378_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201303182156172_Test.cs" />
+    <Compile Include="Migrations\201303182156172_Test.Designer.cs">
+      <DependentUpon>201303182156172_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="ModelInfo.cs" />
     <Compile Include="ModelProperty.cs" />
@@ -68,6 +79,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201303182150378_InitialCreate.resx">
+      <DependentUpon>201303182150378_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201303182156172_Test.resx">
+      <DependentUpon>201303182156172_Test.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

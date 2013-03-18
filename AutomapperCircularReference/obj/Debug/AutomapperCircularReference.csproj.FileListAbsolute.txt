@@ -9,3 +9,6 @@ c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReferen
 c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.exe
 c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.pdb
 c:\users\barslan\documents\visual studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\barslan\Documents\Visual Studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.Migrations.InitialCreate.resources
+C:\Users\barslan\Documents\Visual Studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.csproj.GenerateResource.Cache
+C:\Users\barslan\Documents\Visual Studio 2012\Projects\AutomapperCircularReference\AutomapperCircularReference\obj\Debug\AutomapperCircularReference.Migrations.Test.resources

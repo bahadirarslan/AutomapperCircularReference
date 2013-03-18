@@ -22,6 +22,15 @@ namespace AutomapperCircularReference {
             get;
             set;
         }
+        public int BrandID {
+            get;
+            set;
+        }
+
+        public virtual Brand Brand {
+            get;
+            set;
+        }
 
         public virtual ICollection<ModelProperty> ModelProperties {
             get;

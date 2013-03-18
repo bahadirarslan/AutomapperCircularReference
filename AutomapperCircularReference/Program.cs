@@ -12,16 +12,26 @@ namespace AutomapperCircularReference {
             AutomapperRegistry.Configure();
             Database.SetInitializer(new DropCreateDatabaseAlways<TestDbContext>());
             using(TestDbContext db = new TestDbContext()) {
+                db.Brand.Add(new Brand() {
+                    BrandID = 1,
+                    Name = "Brand Test 1"
+                });
+                db.Brand.Add(new Brand() {
+                    BrandID = 2,
+                    Name = "Brand Test 2"
+                });
                 db.Model.Add(new Model() {
                     ModelID = 1,
                     Name = "Test 1",
-                    Logo = "logo.png"
+                    Logo = "logo.png",
+                    BrandID = 1
                 });
 
                 db.Model.Add(new Model() {
                     ModelID = 2,
                     Name = "Test 2",
-                    Logo = "logo.png"
+                    Logo = "logo.png",
+                    BrandID = 2
                 });
 
                 db.PropertyDefinition.Add(new PropertyDefinition() {
@@ -101,8 +111,8 @@ namespace AutomapperCircularReference {
                 IEnumerable<ModelProperty> models = db.Set<ModelProperty>().ToList();
                 Console.WriteLine("{0} ModelProperties fetched from Db", models.Count());
 
-                IEnumerable<ModelPropertyInfo> modedlInfos = Mapper.Map<IEnumerable<ModelProperty>, IEnumerable<ModelPropertyInfo>>(models);
-                Console.WriteLine("{0} ModelPropertyInfo fetched from Db", modedlInfos.Count());
+                IEnumerable<ModelPropertyInfo> modelInfos = Mapper.Map<IEnumerable<ModelProperty>, IEnumerable<ModelPropertyInfo>>(models);
+                Console.WriteLine("{0} ModelPropertyInfo fetched from Db", modelInfos.Count());
                 Console.ReadLine();
             }
         }

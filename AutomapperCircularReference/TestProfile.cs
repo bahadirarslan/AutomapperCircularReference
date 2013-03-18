@@ -16,9 +16,12 @@ namespace AutomapperCircularReference {
             Mapper.CreateMap<Model, ModelInfo>();
             Mapper.CreateMap<ModelProperty, ModelPropertyInfo>();
             Mapper.CreateMap<PropertyDefinition, PropertyDefinitionInfo>();
+            Mapper.CreateMap<Brand, BrandInfo>();
+
             Mapper.CreateMap<ModelInfo, Model>();
             Mapper.CreateMap<PropertyDefinitionInfo, PropertyDefinition>();
             Mapper.CreateMap<ModelPropertyInfo, ModelProperty>();
+            Mapper.CreateMap<BrandInfo, Brand>();
         }
     }
 }
